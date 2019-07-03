@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.shaikhutech.flashlight">
+
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name="com.shaikhutech.flashlight.WebViewActivity"></activity>
+        <activity android:name="com.shaikhutech.flashlight.FlashLightActivity"></activity>
+        <activity android:name="com.shaikhutech.flashlight.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.shaikhutech.flashlight.AboutActivity"
+            android:theme="@style/AppThemeAbout" />
+        <activity
+            android:name="com.shaikhutech.flashlight.DonateActivity"
+            android:theme="@style/AppThemeAbout" />
+        <activity
+            android:name="com.shaikhutech.flashlight.PoliceActivity"
+            android:theme="@style/TamEkran" />
+        <activity
+            android:name="com.shaikhutech.flashlight.ScreenLightActivity"
+            android:theme="@style/TamEkran" />
+        <activity
+            android:name="com.shaikhutech.flashlight.WarningActivity"
+            android:theme="@style/TamEkran" />
+        <activity android:name="com.shaikhutech.flashlight.Compass.CompassActivity" />
+        <activity
+            android:name="com.shaikhutech.flashlight.DiscoActivity"
+            android:theme="@style/TamEkran" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6403649411849064/6065339651" />
+
+        <receiver android:name="com.shaikhutech.flashlight.ExampleAppWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/example_appwidget_info" />
+        </receiver>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="9040581c1a51210464dda409833dcb2f92232650" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Flashlight</string>
+
+    <string name="eqoenabled"> Equalizer is enabled</string>
+    <string name="compass_dial">Compass Dial</string>
+    <string name="compass_hands">Compass Hands</string>
+    <string name="sotw_north">N</string>
+    <string name="sotw_east">E</string>
+    <string name="sotw_south">S</string>
+    <string name="sotw_west">W</string>
+    <string name="sotw_northeast">NE</string>
+    <string name="sotw_northwest">NW</string>
+    <string name="sotw_southeast">SE</string>
+    <string name="sotw_southwest">SW</string>
+
+    <string name="connect">Connect</string>
+    <string name="telegram">Telegram</string>
+    <string name="telegramdes">You can reach me on the Telegram</string>
+    <string name="instagram">Instagram</string>
+    <string name="instagramdes">You can reach me on the Instagram</string>
+    <string name="telegramlink">https://t.me/jdotmedia</string>
+    <string name="instagramlink">https://www.instagram.com/jdotmediainc/</string>
+
+    <string name="rate">Rate app</string>
+    <string name="ratedes">Love this app let us know in Google play store to provide better experience</string>
+    <string name="share">Share</string>
+    <string name="appratelink">https://play.google.com/store/apps/details?id=com.flashlighton.download</string>
+
+    <string name="support_development">Support Development</string>
+    <string name="support_development_summary">If you enjoy using Flashligh ON consider donation as support to my work.</string>
+
+    <string name="thank">Thanks!</string>
+    <string name="thanks">Support the continued development of Treble Checker</string>
+    <string name="video">Watch Ad Only</string>
+    <string name="cookie">Cookie</string>
+    <string name="dietcola">Diet Cola</string>
+    <string name="coffee">Coffee</string>
+    <string name="fastfoot">Fastfood</string>
+    <string name="gift">Gift</string>
+
+    <string name="banner_admob">ca-app-pub-6403649411849064/2188414643</string>
+    <string name="reward_admob">ca-app-pub-9646931465831859/8654870200</string>
+    <string name="site_menu_home">Home</string>
+    <string name="site_menu_page1">About</string>
+    <string name="site_menu_page2">Warning</string>
+    <string name="support">Support</string>
+    <string name="call">Call</string>
+    <string name="message">Message</string>
+    <string name="messenger">Messenger</string>
+    <string name="email">EMail</string>
+    <string name="others">Others</string>
+    <string name="exit">Close</string>
+    <string name="site_youtube">Youtube</string>
+    <string name="openDrawer">OpenDrawer</string>
+    <string name="closeDrawer">Close Drawer</string>
+    <string name="no_internet">Internet not Found</string>
+    <string name="share_text">share App</string>
+    <string name="yes">Yes</string>
+    <string name="close_prompt">Are You Want to close ?</string>
+    <string name="install_messenger">Massenger Not Found Please Install</string>
+    <string name="tapAgain">Tap again to Exit</string>
+    <string name="no">No</string>
+    <string name="disco">Disco</string>
+    <string name="site_youtube_url">http://www.youtube.com/channel/UCYnBU--tVLhk-3gG3A0nLDQ</string>
+</resources>
